@@ -4,6 +4,16 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
+# Ignorar el archivo .env
+.env
+
+# Otros archivos y directorios que deseas ignorar
+/target/
+*.log
+*.class
+
+
 ### STS ###
 .apt_generated
 .classpath
